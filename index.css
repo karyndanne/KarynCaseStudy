@@ -31,7 +31,7 @@ h1, h2, h3 , h4, h5, h6 {
   
   /* Navigation dropdown menu */
   .dropdown-menu {
-    background: url("images/syed.jpg");
+    background: url("images/transparency.png");
     background-color: transparent !important;
     background-size: cover;
   }
@@ -51,7 +51,7 @@ h1, h2, h3 , h4, h5, h6 {
   
   /* Jumbotron  */
   .jumbotron {
-    background-image: url("images/sampleProto.png");
+    background-image: url("/images/shipping.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
@@ -86,7 +86,7 @@ h1, h2, h3 , h4, h5, h6 {
   
   /* Content */
   .sideAccent {
-    background: #007bff;
+    background: #263C29;
     width: 15px;
   }
   .imageContainer img {
@@ -99,7 +99,18 @@ h1, h2, h3 , h4, h5, h6 {
     margin-top: 15px;
     margin-bottom: 15px;
   }
-  
+    /* PicSection */
+  .picSection {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    }
+  .picSection pic {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    }
+
   /* Footer */
   .emailContain {
     background: url("images/syed.jpg");
@@ -140,5 +151,9 @@ h1, h2, h3 , h4, h5, h6 {
   }
   .card {
     margin: 0 auto;
+  }
+
+  .btn {
+    color: #263C29;
   }
   
